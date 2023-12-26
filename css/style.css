@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.conteinar{
+    width: 1500px;
+    
+}
+/* card */
+.conteinar .row .card{
+    
+    text-align: center;
+}
+.conteinar .row .card{
+    width: 200px;
+    padding: 20px 0;
+    display: inline-block;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+}
+.conteinar .row .card p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.conteinar .row .card:hover{
+    background-color: rgba(170, 138, 98, 0.863);
+    border: 2px solid rgb(140, 140, 198);
+}
+/* card end */
+
+
+/* card 2 */
+
+.conteinar .row .card2{
+    padding: 40px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+
+}
+.conteinar .row .card2 p{
+    display: inline-block;
+    padding: 0 10px 0 0;
+ align-items: center;
+ background-color:#6e2594;
+ border-radius: 0 20px 20px 0;
+ color: white;
+}
+.conteinar .row .card2 a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.conteinar .row .card2 .payment{
+    margin-top: 10px;
+    color: #ef4a23;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+/* card 2 end */
+
+/* card3 */
+.conteinar .row .fb{
+    padding: 30px;
+    background-image: url(../imeges/fb.webp);
+   background-size: cover;
+   font-family:cursive;
+    width:300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    color: white;
+
+}
+
+.conteinar .row .insta{
+    padding: 30px;
+    background-image: url(../imeges/inst.avif);
+    color: white;
+    font-family:cursive;
+    background-size: cover;
+    width:300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.conteinar .row .wp{
+    padding: 30px;
+    background-image: url(../imeges/wp.jpg);
+    color: white;
+    font-family:cursive;
+    background-size: cover;
+    width:300px;
+    height: 300px;
+    display: inline-block;
+            border: 2px solid black;
+        }
+ 
+.conteinar .row a{
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    padding:5px 10px;
+    border-radius: 0 20px 0 20px;
+    border:2px solid black;
+    transition: 0.3s;
+
+}   
+
+.conteinar .row a:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid wheat;
+    border-radius: 20px 0 20px  0;
+   
+    
+}
+
+.conteinar .row .fb .a{
+    margin-top: 20px;
+}
+.conteinar .row .insta .a{
+    margin-top: 20px;
+}
+.conteinar .row .wp .a{
+    margin-top: 20px;
+}
+/* card3 end */
+
